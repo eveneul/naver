@@ -195,7 +195,7 @@ body {
   opacity: 0.1;
 }
 
-.sp-bg, .sc-sidenews .navi .btn-nav.next::before, .sc-sidenews .navi .btn-nav.prev::before, .sc-login .link-join::before, .sc-login .link-id::before, .sc-themepost .content .btn-more-wrap .more, .sc-themepost .content .list3 .btn-next::after, .sc-themepost .content .list3 .play::before, .sc-themepost .content .list3 .theme-title::after, .sc-themepost .content .list1 .theme-item .play::before, .sc-themepost .group-theme .btn-set.btn-next::after, .sc-themepost .group-theme .btn-set.btn-prev::after, .sc-themepost .group-title .filter-area .topic::before, .sc-news .content .btn-set.btn-next::after, .sc-news .content .btn-set.btn-prev::after, .sc-news .group-title .set-area .ic-set::before, .sc-news .group-title .set-area .ic-tile::before, .sc-news .group-title .set-area .ic-list::before, .sc-news .group-title .link-newsstand::after, .sc-news .group-title .link-newsstand::before, .sc-news .group-issue .link-media::after, .footer .notice-area .all-service::after, .header .tv::before, .header .shopping-live::before, .header .shopping::before, .header .mail::before, .header .weather-area .max::before, .header .btn-nav-more::after, .header .link-bin::before, .header .link-junior::before, .header .service-area .link-start::after, .header .search-area .btn-arw::before, .header .search-area .btn-keyboard::before, .header .search-area .btn-search::before, .header .logo a::before {
+.sp-bg, .sc-sidenews .navi .btn-nav.next::before, .sc-sidenews .navi .btn-nav.prev::before, .sc-login .link-join::before, .sc-login .link-id::before, .sc-login .link-login::before, .sc-themepost .content .btn-more-wrap .more, .sc-themepost .content .list3 .btn-next::after, .sc-themepost .content .list3 .play::before, .sc-themepost .content .list3 .theme-title::after, .sc-themepost .content .list1 .theme-item .play::before, .sc-themepost .group-theme .btn-set.btn-next::after, .sc-themepost .group-theme .btn-set.btn-prev::after, .sc-themepost .group-title .filter-area .topic::before, .sc-news .content .btn-set.btn-next::after, .sc-news .content .btn-set.btn-prev::after, .sc-news .group-title .set-area .ic-set::before, .sc-news .group-title .set-area .ic-tile::before, .sc-news .group-title .set-area .ic-list::before, .sc-news .group-title .link-newsstand::after, .sc-news .group-title .link-newsstand::before, .sc-news .group-issue .link-media::after, .footer .notice-area .all-service::after, .header .tv::before, .header .shopping-live::before, .header .shopping::before, .header .mail::before, .header .weather-area .max::before, .header .btn-nav-more::after, .header .link-bin::before, .header .link-junior::before, .header .service-area .link-start::after, .header .search-area .btn-arw::before, .header .search-area .btn-keyboard::before, .header .search-area .btn-search::before, .header .logo a::before {
   background-image: url(../img/sp-bg.png);
   background-size: 457px;
   background-repeat: no-repeat;
@@ -1529,6 +1529,15 @@ body {
   color: #fff;
   font-weight: bold;
   text-align: center;
+}
+.sc-login .link-login::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 12px;
+  background-position: -138px -330px;
+  vertical-align: top;
+  margin: 2px 5px 0 0;
 }
 .sc-login .sub-area {
   margin: 14px 8px 0 4px;
