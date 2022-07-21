@@ -436,6 +436,9 @@ body {
 .header .weather-area a > * {
   float: left;
 }
+.header .weather-area a:hover .location {
+  text-decoration: underline;
+}
 .header .weather-area .weather {
   font-size: 15px;
   font-weight: bold;
@@ -1822,6 +1825,15 @@ body {
   border: 1px solid #dae1e6;
   vertical-align: top;
 }
+.sc-shop .group-goods .shop-navi .btn-nav:hover {
+  background-color: #fafbfc;
+}
+.sc-shop .group-goods .shop-navi .btn-nav:hover.prev::before {
+  background-position: -86px -77px;
+}
+.sc-shop .group-goods .shop-navi .btn-nav:hover.next::before {
+  background-position: -72px -77px;
+}
 .sc-shop .group-goods .shop-navi .btn-nav.prev::before {
   content: "";
   display: inline-block;
@@ -2088,6 +2100,15 @@ body {
   float: left;
   background-color: #fff;
   border: 1px solid #dae1e6;
+}
+.sc-shop .navi .navi-controls .btn-nav:hover {
+  background-color: #fafbfc;
+}
+.sc-shop .navi .navi-controls .btn-nav:hover.prev::before {
+  background-position: -86px -77px;
+}
+.sc-shop .navi .navi-controls .btn-nav:hover.next::before {
+  background-position: -72px -77px;
 }
 .sc-shop .navi .navi-controls .prev {
   margin-right: -1px;

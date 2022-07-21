@@ -247,6 +247,12 @@
 			& > * {
 				float: left;
 			}
+
+			&:hover {
+				.location {
+					text-decoration: underline;
+				}
+			}
 		}
 
 		.weather {
