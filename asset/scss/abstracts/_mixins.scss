@@ -1,0 +1,22 @@
+@mixin floatClear {
+	&::after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+
+@mixin elip($line, $lineHeight) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	@if ($line > 1) {
+		display: -webkit-box;
+		-webkit-line-clamp: $line;
+		-webkit-box-orient: vertical;
+		margin-top: 2px;
+		line-height: $lineHeight + px;
+		max-height: $lineHeight * $line + px;
+	} @else {
+		white-space: nowrap;
+	}
+}

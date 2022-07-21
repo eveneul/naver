@@ -1,0 +1,60 @@
+body {
+	font-size: 12px;
+	line-height: 16px;
+	color: #202020;
+	font-family: -apple-system, BlinkMacSystemFont, 'Malgun Gothic', '맑은 고딕',
+		helvetica, 'Apple SD Gothic Neo', sans-serif;
+}
+
+.wrapper {
+	min-width: 1190px;
+}
+
+.container {
+	@include floatClear;
+	width: 1130px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.blind {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	margin: -1px;
+}
+
+.thumb-bd {
+	display: block;
+	position: relative;
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		border: 1px solid #000;
+		opacity: 0.1;
+	}
+}
+
+.sp-bg {
+	background-image: url(../img/sp-bg.png);
+	background-size: 457px;
+	background-repeat: no-repeat;
+}
+
+.sp-bg2 {
+	background-image: url(../img/sp-bg2.png);
+	background-size: 107px;
+	background-repeat: no-repeat;
+}
+
+.sp-weather {
+	background-image: url(../img/sp-weather.png);
+	background-size: 215px;
+	background-repeat: no-repeat;
+}
