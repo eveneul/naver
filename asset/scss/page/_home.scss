@@ -43,8 +43,8 @@
 			}
 		}
 		.link-issue {
+			@include elip(1, 24);
 			float: left;
-			width: 310px;
 			font-size: 13px;
 
 			&:hover {
@@ -499,6 +499,7 @@
 				}
 
 				.title {
+					@include elip(1, 16);
 					display: block;
 					font-weight: bold;
 					font-size: 13px;
@@ -506,6 +507,7 @@
 				}
 
 				.desc {
+					@include elip(2, 21);
 					line-height: 21px;
 					font-size: 13px;
 					margin-bottom: 4px;
@@ -523,6 +525,9 @@
 			.theme-list {
 			}
 			.theme-item {
+				a {
+					display: block;
+				}
 				&:hover {
 					img {
 						transform: scale(1.07);
@@ -549,6 +554,7 @@
 					padding: 4px 47px 0 0;
 
 					.cate {
+						@include elip(1, 16);
 						display: block;
 						font-weight: bold;
 						color: #ebaa00;
@@ -690,6 +696,7 @@
 			.desc-area {
 				padding-top: 12px;
 				.title {
+					@include elip(1, 16);
 					font-weight: bold;
 					max-height: 40px;
 					line-height: 20px;
@@ -1351,8 +1358,8 @@
 
 			.deal-desc {
 				strong {
+					@include elip(2, 17);
 					max-height: 34px;
-					line-height: 17px;
 				}
 				.price-wrap {
 					margin-top: 5px;

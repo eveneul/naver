@@ -809,8 +809,10 @@ body {
   margin: 0 5px;
 }
 .sc-news .group-issue .link-issue {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   float: left;
-  width: 310px;
   font-size: 13px;
 }
 .sc-news .group-issue .link-issue:hover {
@@ -1258,12 +1260,23 @@ body {
   margin-bottom: 6px;
 }
 .sc-themepost .content .list1 .desc-area .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   display: block;
   font-weight: bold;
   font-size: 13px;
   margin-bottom: 5px;
 }
 .sc-themepost .content .list1 .desc-area .desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: 2px;
+  line-height: 21px;
+  max-height: 42px;
   line-height: 21px;
   font-size: 13px;
   margin-bottom: 4px;
@@ -1275,6 +1288,9 @@ body {
 .sc-themepost .content .list2 {
   padding: 18px 0;
   border-top: 1px solid #e4e8eb;
+}
+.sc-themepost .content .list2 .theme-item a {
+  display: block;
 }
 .sc-themepost .content .list2 .theme-item:hover img {
   transform: scale(1.07);
@@ -1303,6 +1319,9 @@ body {
   padding: 4px 47px 0 0;
 }
 .sc-themepost .content .list2 .theme-item .desc-area .cate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   display: block;
   font-weight: bold;
   color: #ebaa00;
@@ -1442,6 +1461,9 @@ body {
   padding-top: 12px;
 }
 .sc-themepost .content .list3 .desc-area .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   font-weight: bold;
   max-height: 40px;
   line-height: 20px;
@@ -2055,8 +2077,15 @@ body {
   background-position: -42px -54px;
 }
 .sc-shop .group-deal .deal-item .deal-desc strong {
-  max-height: 34px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: 2px;
   line-height: 17px;
+  max-height: 34px;
+  max-height: 34px;
 }
 .sc-shop .group-deal .deal-item .deal-desc .price-wrap {
   margin-top: 5px;
