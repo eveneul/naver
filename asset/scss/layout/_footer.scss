@@ -18,6 +18,11 @@
 			width: 350px;
 			height: 86px;
 			float: left;
+
+			+ .banner-item {
+				margin-left: 40px;
+			}
+
 			a {
 				display: block;
 				&:hover {
@@ -44,6 +49,7 @@
 				object-fit: cover;
 			}
 			.desc {
+				@include elip(1, 1.25);
 				overflow: hidden;
 				height: 86px;
 				padding: 2px 2px 0 16px;
@@ -53,12 +59,14 @@
 				text-align: left;
 			}
 			em {
+				@include elip(1, 1);
 				display: block;
 				font-weight: bold;
 				letter-spacing: -0.25px;
 				color: #58c464;
 			}
 			strong {
+				@include elip(1, 1);
 				display: block;
 				margin-top: 6px;
 				font-size: 13px;
@@ -69,6 +77,7 @@
 				margin-bottom: 8px;
 			}
 			span {
+				@include elip(1, 1);
 				display: block;
 				line-height: 18px;
 				letter-spacing: -0.25px;
