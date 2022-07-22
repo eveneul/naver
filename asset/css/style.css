@@ -966,7 +966,7 @@ body {
 .sc-news .content .media-item {
   position: relative;
   float: left;
-  width: 16.6666666667%;
+  width: 125px;
 }
 .sc-news .content .media-item a {
   display: block;
@@ -1045,19 +1045,19 @@ body {
   background-color: #e4e8eb;
 }
 .sc-news .content .vt-line.vt1 {
-  left: 124px;
+  left: 125px;
 }
 .sc-news .content .vt-line.vt2 {
-  left: 248px;
+  left: 250px;
 }
 .sc-news .content .vt-line.vt3 {
-  left: 372px;
+  left: 375px;
 }
 .sc-news .content .vt-line.vt4 {
-  left: 496px;
+  left: 500px;
 }
 .sc-news .content .vt-line.vt5 {
-  left: 620px;
+  left: 625px;
 }
 .sc-news .content .hr-line {
   position: absolute;

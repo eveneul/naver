@@ -195,7 +195,7 @@
 		.media-item {
 			position: relative;
 			float: left;
-			width: calc(100% / 6);
+			width: 125px;
 			a {
 				display: block;
 				padding: 23px 0 22px;
@@ -289,7 +289,7 @@
 
 			@for $i from 1 to 6 {
 				&.vt#{$i} {
-					left: 124px * $i;
+					left: 125px * $i;
 				}
 			}
 		}
