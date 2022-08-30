@@ -1303,6 +1303,7 @@ body {
 .sc-themepost .content .list2 {
   padding: 18px 0;
   border-top: 1px solid #e4e8eb;
+  border-bottom: 1px solid #e4e8eb;
 }
 .sc-themepost .content .list2 .theme-item a {
   display: block;
@@ -1388,7 +1389,6 @@ body {
   position: relative;
   padding: 18px 0 17px;
   margin: 0 -27px -31px 0;
-  border-top: 1px solid #e4e8eb;
 }
 .sc-themepost .content .list3::after {
   content: "";
